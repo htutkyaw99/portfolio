@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-colors-plaebg;
+  font-family: "Fira Mono", monospace;
+}
+
+@layer base {
+  .nav-link {
+    @apply text-gray-800 font-bold hover:text-gray-400 transition-all;
+  }
+}
