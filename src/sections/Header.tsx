@@ -29,7 +29,7 @@ const Header = () => {
             navbarBg ? "text-gray-400 hover:text-gray-300" : "nav-link"
           }  `}
         >
-          <a href="#home">Home</a>
+          <a href="#">Home</a>
         </li>
         <li
           className={` ${
