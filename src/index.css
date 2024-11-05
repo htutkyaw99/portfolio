@@ -9,6 +9,14 @@ body {
 
 @layer base {
   .nav-link {
-    @apply text-gray-800 font-bold hover:text-gray-400 transition-all;
+    @apply text-gray-800 font-bold hover:text-gray-400 transition-all capitalize;
+  }
+
+  .nav-scroll-link {
+    @apply text-gray-400 hover:text-gray-300 capitalize;
+  }
+
+  .nav-scroll-link-active {
+    @apply text-gray-300 capitalize;
   }
 }
