@@ -1,5 +1,5 @@
 import avatar from "../assets/Avatar.png";
-import cv from "../assets/CV HK.pdf";
+import cv from "../assets/HKCV.pdf";
 
 const Hero = () => {
   return (
@@ -85,7 +85,8 @@ const Hero = () => {
 
       <a
         className="bg-gray-900 cursor-pointer text-gray-300 px-3 py-2 flex items-center hover:bg-gray-800 hover:text-gray-200"
-        download={cv}
+        href={cv}
+        download
       >
         Download Resume
         <svg
